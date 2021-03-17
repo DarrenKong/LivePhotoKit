@@ -24,7 +24,7 @@ pod 'DKLivePhotoKit'
 
 ## Author
 
-DarrenKong, Darren@maizuo.com
+DarrenKong
 
 ## License
 
