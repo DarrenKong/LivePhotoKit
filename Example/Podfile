@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DKLivePhotoKit_Example' do
+  pod 'DKLivePhotoKit', :path => '../'
+  pod 'TZImagePickerController'
+  pod 'AFNetworking'
+
+  target 'DKLivePhotoKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

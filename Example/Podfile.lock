@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - DKLivePhotoKit (0.1.0)
+  - TZImagePickerController (3.5.8)
+
+DEPENDENCIES:
+  - AFNetworking
+  - DKLivePhotoKit (from `../`)
+  - TZImagePickerController
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - TZImagePickerController
+
+EXTERNAL SOURCES:
+  DKLivePhotoKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  DKLivePhotoKit: a253689bbb7c7888df563e3f36333eff90ca9176
+  TZImagePickerController: 7fd9702897ef8c0b7c951e5463f4bcf398296f9e
+
+PODFILE CHECKSUM: 06ce7ced51a6bb33ff5406e5c7560e494e97683b
+
+COCOAPODS: 1.10.1
